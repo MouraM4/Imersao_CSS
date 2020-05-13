@@ -1,0 +1,39 @@
+body{
+    background-color: indigo;
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+}
+
+.Menu{
+    background-color: white;
+}
+
+.Menu ul{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site-title{
+    color: white;
+    text-align: center;
+}
+
+.site-subtitle{
+    color: gray;
+    font-style: italic;
+    text-align: center;
+}
